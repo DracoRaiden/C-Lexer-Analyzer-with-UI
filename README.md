@@ -1,30 +1,25 @@
-# Interactive C++ Lexer Analyzer
+# C++ Tokenizer (Lexical Analyzer using Flex)
 
-This project implements a **Lexer Analyzer** with **advanced features and Streamlit UI**. It analyzes C/C++ code by breaking it into tokens, visualizes statistics, compares code snippets, and generates parse trees.
+This project demonstrates the creation of a **Lexical Analyzer for the C++ programming language** using **Flex**. The analyzer processes input `.cpp` files and classifies contents into various tokens including keywords, identifiers, operators, constants, and more.
 
-## Highlights
+## Features
 
-* 💻 Live coding interface via Streamlit  
-* 🧪 Tokenization and error detection  
-* 📊 Token frequency charts and stats  
-* 🌳 Parse Tree visualization (custom)  
-* 🔁 File upload & output download support  
-* 🔍 Code comparison: similarity detection
+* 🔑 Keyword recognition (int, float, return, etc.)  
+* 📛 Identifier and literal detection  
+* ➕ Operator parsing (arithmetic, logical, bitwise, etc.)  
+* 🔣 Punctuation and delimiter handling  
+* 📝 Comment support: single-line and multi-line  
+* 🔎 Outputs token type, value, and line number
 
-## Built With
+## Technologies Used
 
-* Python  
-* Streamlit  
-* Regex, NLTK (for token parsing)
+* Flex (Fast lexical analyzer generator)  
+* C++ (for input files and token definitions)
 
-## Key Learning
+## Collaboration
 
-Creating a dynamic Parse Tree from scratch using recursive logic and custom grammar was the most time-consuming and rewarding aspect.
+The project was completed in a two-member team. Responsibilities were divided between pattern development, regex formulation, and test case validation.
 
-## Team Work
+## 📄 Full Report
 
-Achieved a perfect score of **100/100** – rated as the **best in class** (50+ students). Shared equal workload across analysis engine, UI, and testing.
-
-## 📄 Detailed Report
-
-📄 For more details, check the [Full Report](./report.pdf)
+The full technical report, including token patterns, edge case handling, and line-wise accuracy validation, can be viewed by clicking [Full Report](./report.pdf).
